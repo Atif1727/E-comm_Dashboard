@@ -9,11 +9,38 @@
   padding: 8px;
 }
 
+.nav-right {
+  text-align: right;
+}
 
 .nav-ul li a {
   color: white;
   padding: 5px;
   text-decoration: none;
+}
+
+.productlist {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.productlist ul li {
+  display: inline-block;
+  border: 1px solid skyblue;
+  padding: 5px;
+  width: 150px;
+}
+
+.productlist ul{
+  margin: 0px;
+}
+
+.logo {
+  width: 35px;
+  float: left;
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-left: 10px;
 }
 
 .footer {
@@ -24,17 +51,13 @@
   width: 100%;
 }
 
-.Register {
+.Register,
+.product {
   margin-left: 30%;
 }
 
-
-.appButton {
-  margin: 25px;
-  padding: 10px;
-  width: 150px;
-  background-color: skyblue;
-  border: 1px solid;
+.login {
+  margin-left: 30%;
 }
 
 .inputBox {
@@ -44,6 +67,16 @@
   width: 300px;
   border: 1px solid skyblue;
 }
+
+.appButton {
+  margin: 25px;
+  padding: 10px;
+  width: 150px;
+  background-color: skyblue;
+  border: 1px solid;
+}
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
